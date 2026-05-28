@@ -13,6 +13,7 @@ namespace AbstractRTEx
             Console.WriteLine(" HMWBS Bill Details");
         }
         public abstract void GetBill( double units);
+
     }
     class ResidentialCustomer : HMWBS
     {
